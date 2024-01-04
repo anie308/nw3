@@ -1,0 +1,30 @@
+.linear-one {
+  background: linear-gradient(270deg, #dda74f 50.38%, #ffe4b8 65.79%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linear-two {
+  background: linear-gradient(90deg, #b0a32e 48.51%, #dda74f 68.82%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linear-three {
+  background: linear-gradient(92deg, #ddd -43.14%, #dda74f 69.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linear-four {
+  background: linear-gradient(95deg, #cc8645 61.8%, #f0ffe4 91.23%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linear-five {
+  background: linear-gradient(268deg, #FFC700 28.7%, #FFE486 50.93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

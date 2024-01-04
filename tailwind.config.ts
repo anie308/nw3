@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        notosans: ['Noto Sans ', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        merienda: ['Merienda', "cursive"]
+      },
+      colors:{
+        background: "#0B0B0D"
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
