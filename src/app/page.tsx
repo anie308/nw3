@@ -1,9 +1,9 @@
-import Header from "@/components/Header";
+import Header from "@/components/HomeHeader";
 import Mission from "@/components/Mission";
 import "./globals.css";
 import Image from "next/image";
-
 import lumin from "@/assets/image/lumin.png";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function Home() {
           alt="lumin"
         />
         <Mission />
+        <Footer/>
       </div>
     </>
   );

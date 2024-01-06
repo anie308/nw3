@@ -1,0 +1,28 @@
+.background {
+    background: linear-gradient(180deg, #0b0b0d 0%, #272a31 100%);
+    mix-blend-mode: overlay;
+    /* opacity: 0.2; */
+  }
+
+  .box1 {
+    width: 242.101px;
+    height: 411.257px;
+    transform: rotate(30deg);
+    flex-shrink: 0;
+    position: absolute;
+    background:  #b4452a  ;
+    /* background: url("../../assets/image/mesh-gradient1.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    filter: blur(60px);
+  }
+  .box2 {
+    background: #0048F5;
+    width: 180.101px;
+    border-radius: 50%;
+    height: 180.257px;
+    transform: rotate(30deg);
+    filter: blur(100px);
+  }
+  

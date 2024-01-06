@@ -1,0 +1,6 @@
+.mix{
+    mix-blend-mode: luminosity;
+}
+.body{
+    filter: blur(10%);
+}
