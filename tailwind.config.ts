@@ -11,7 +11,9 @@ const config: Config = {
       fontFamily:{
         notosans: ['Noto Sans ', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
-        merienda: ['Merienda', "cursive"]
+        merienda: ['Merienda', "cursive"],
+        manrope: ['Manrope', "sans-serif"]
+
       },
       colors:{
         background: "#0B0B0D"
