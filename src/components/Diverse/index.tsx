@@ -38,14 +38,13 @@ function Diverse() {
                 {description2}
               </p>
             </div>
-
           </div>
         ))}
-
       </div>
-      <div className="flex items-center justify-start lg:*:justify-center w-full mt-[50px]">
-      <button className="bg-[#A76B09] p-[8px_30px] rounded-[6px] text-white font-inter text-[16px] font-[600]">Join Us Today</button>
-
+      <div className="flex items-center justify-start lg:justify-center w-full mt-[50px]">
+        <button className="bg-[#A76B09] p-[10px_30px] rounded-[6px] text-white font-inter text-[16px] font-[600]">
+          Join Us Today
+        </button>
       </div>
     </div>
   );

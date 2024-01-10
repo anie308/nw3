@@ -1,0 +1,6 @@
+.backg{
+    background-image: url("../../assets/image/spiral.png");
+    background-position: center center;
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
