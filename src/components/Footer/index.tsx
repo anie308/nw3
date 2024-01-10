@@ -3,7 +3,7 @@ import logo from "@/assets/image/logo.png";
 import Image from "next/image";
 function Footer() {
   return (
-    <div className="flex items-center justify-between w-full bg-[#000000] p-[20px] lg:p-[40px_50px]">
+    <div className="flex items-center justify-between w-full bg-[#000000] p-[20px] lg:p-[20px_50px]">
       <Image
         src={logo}
         priority

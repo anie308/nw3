@@ -1,5 +1,6 @@
 import CommunityHero from '@/components/CommunityHero'
 import Diverse from '@/components/Diverse'
+import Subscribe from '@/components/Subscribe'
 import React from 'react'
 
 function Community() {
@@ -7,6 +8,7 @@ function Community() {
     <div>
         <CommunityHero/>
         <Diverse/>
+        <Subscribe/>
     </div>
   )
 }

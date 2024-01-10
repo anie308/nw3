@@ -38,8 +38,14 @@ function Diverse() {
                 {description2}
               </p>
             </div>
+
           </div>
         ))}
+
+      </div>
+      <div className="flex items-center justify-start lg:*:justify-center w-full mt-[50px]">
+      <button className="bg-[#A76B09] p-[8px_30px] rounded-[6px] text-white font-inter text-[16px] font-[600]">Join Us Today</button>
+
       </div>
     </div>
   );
@@ -105,7 +111,7 @@ const community = [
       "They're our bridge to the outside world, forging partnerships, securing whitelists with new projects, and helping us expand.",
   },
   {
-    id: 7,
+    id: 8,
     img: inc8,
     title: "Affiliate",
     description1: "The promoters, the partners, and the network builders.",
@@ -113,7 +119,7 @@ const community = [
       "Affiliates are all about spreading the word, helping with partnerships, and expanding our reach.",
   },
   {
-    id: 7,
+    id: 9,
     img: inc9,
     title: "Builder",
     description1: "The tech enthusiasts, the creatives, and the innovators.",
