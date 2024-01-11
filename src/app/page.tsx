@@ -4,6 +4,8 @@ import "./globals.css";
 import Image from "next/image";
 import lumin from "@/assets/image/lumin.png";
 import Footer from "@/components/Footer";
+import WhatWeOffer from "@/components/WhatWeOffer";
+import Join from "@/components/Join";
 export default function Home() {
   return (
     <>
@@ -12,12 +14,15 @@ export default function Home() {
         <Image
           src={lumin}
           priority
-          className="h-[400px] lg:h-[800px] w-[200px] lg:w-[400px]  absolute z-20 bottom-[-50px] lg:bottom-[-200px] right-[-50px] lg:right-[-10%] mix-blend-luminosity opacity-50 lg:opacity-100"
+          className="h-[400px] lg:h-[800px] w-[200px] lg:w-[400px]  absolute z-20 bottom-[-50px] lg:bottom-[-170px] right-[-50px] lg:right-[-10%] mix-blend-luminosity opacity-50 lg:opacity-100"
           alt="lumin"
         />
         <Mission />
+        </div>
+        <WhatWeOffer/>
+        <Join/>
         <Footer/>
-      </div>
+      
     </>
   );
 }
