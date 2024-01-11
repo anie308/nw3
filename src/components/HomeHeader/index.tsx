@@ -9,7 +9,7 @@ import NavHeader from "../Header";
 function Header() {
   return (
     <>
-      <div className="font-notosans bg-black h-[600px] lg:h-screen w-full relative">
+      <div className="font-notosans bg-black h-[400px] lg:h-screen w-full relative">
         <div className="absolute z-20 min-h-full top-0 w-full">
           <NavHeader />
 

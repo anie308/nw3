@@ -3,9 +3,10 @@ import React from "react";
 import edu from "@/assets/image/education.png";
 import inc from "@/assets/image/incubation.png";
 import defi from "@/assets/image/defi.png";
+import "./what.css"
 function WhatWeOffer() {
   return (
-    <div className="bg-[#0B0B0D] p-[20px] lg:p-[100px_50px]">
+    <div className="bg-selcto p-[20px] lg:p-[100px_50px]">
       <p className="uppercase font-inter text-white font-[600] text-[24px]">
         What we Offer
       </p>
@@ -34,7 +35,7 @@ function WhatWeOffer() {
             </p>
             <p className="w-full lg:w-[70%] text-[#FFFFFF99] font-[400] font-inter">
               Forge powerful alliances in the Web3 space with our partnership
-              support. We'll connect you with potential collaborators,
+              support. We&apos;ll connect you with potential collaborators,
               investors, and strategic partners.
             </p>
           </div>
@@ -48,7 +49,7 @@ function WhatWeOffer() {
             <p className="w-full lg:w-[70%] text-[#FFFFFF99] font-[400] font-inter">
               Unlock the potential of Web3 through our comprehensive educational
               programs. From blockchain basics to advanced smart contract
-              development, we've got you covered.
+              development, we&apos;ve got you covered.
             </p>
           </div>
         </div>
