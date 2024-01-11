@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import WhatWeOffer from "@/components/WhatWeOffer";
 import Join from "@/components/Join";
 import Partner from "@/components/Partner";
+import Letter from "@/components/Letters";
 export default function Home() {
   return (
     <>
@@ -19,12 +20,13 @@ export default function Home() {
           alt="lumin"
         />
         <Mission />
-        </div>
-        <WhatWeOffer/>
-        <Partner/>
-        <Join/>
-        <Footer/>
-      
+      </div>
+
+      <WhatWeOffer />
+      <Letter />
+      <Partner />
+      <Join />
+      <Footer />
     </>
   );
 }
