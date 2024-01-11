@@ -8,12 +8,12 @@ import { FaDiscord } from "react-icons/fa6";
 import "./join.css";
 function Join() {
   return (
-    <div className="bg-spiral bg-right lg:bg-[center_center] relative h-[1200px] bg-black lg:h-[900px] flex items-center ">
+    <div className="bg-spiral  relative h-[1200px] bg-black lg:h-[900px] flex items-center overflow-hidden">
       <div className="absolute top-[200px] left-[50%]">
         <div className="box1"></div>
         <div className="box2  mt-[30px]"></div>
       </div>
-      <div className="absolute h-full w-full  p-[50px_20px] lg:p-[150px_50px]  flex items-center flex-col-reverse lg:flex-row">
+      <div className="absolute h-full w-full  p-[50px_20px] lg:py-[150px] lg:pl-[50px]  flex items-center flex-col-reverse lg:flex-row">
         <div className="mt-[50px] lg:mt-0 lg:flex-1 flex-col flex justify-center ">
           <Image
             src={logo}

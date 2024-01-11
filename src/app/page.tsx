@@ -6,6 +6,7 @@ import lumin from "@/assets/image/lumin.png";
 import Footer from "@/components/Footer";
 import WhatWeOffer from "@/components/WhatWeOffer";
 import Join from "@/components/Join";
+import Partner from "@/components/Partner";
 export default function Home() {
   return (
     <>
@@ -20,6 +21,7 @@ export default function Home() {
         <Mission />
         </div>
         <WhatWeOffer/>
+        <Partner/>
         <Join/>
         <Footer/>
       

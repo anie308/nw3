@@ -1,6 +1,6 @@
 .box1 {
     width: 242.101px;
-    height: 411.257px;
+    height: 241.257px;
     transform: rotate(30deg);
     flex-shrink: 0;
     position: absolute;
@@ -13,16 +13,17 @@
   }
   .box2 {
     background: #0048F5;
-    width: 180.101px;
+    width: 150.101px;
     border-radius: 50%;
-    height: 180.257px;
+    height: 150.257px;
     transform: rotate(30deg);
     filter: blur(80px);
   }
 
   .bg-spiral{
+    mix-blend-mode: luminosity;
     background-image: url("../../assets/image/spiral.png");
-    /* background-position: center center; */
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: 800px;
   }
