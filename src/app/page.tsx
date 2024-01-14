@@ -8,11 +8,12 @@ import WhatWeOffer from "@/components/WhatWeOffer";
 import Join from "@/components/Join";
 import Partner from "@/components/Partner";
 import Letter from "@/components/Letters";
+import Core from "@/components/Core";
 export default function Home() {
   return (
-    <>
+    <div  className="">
       <Header />
-      <div className=" relative overflow-hidden">
+      <div className="mt-[10%] relative overflow-hidden">
         <Image
           src={lumin}
           priority
@@ -27,6 +28,6 @@ export default function Home() {
       <Partner />
       <Join />
       <Footer />
-    </>
+    </div>
   );
 }
