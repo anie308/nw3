@@ -22,16 +22,16 @@ function WhatWeOffer() {
       <Image src={star} alt="star" className="h-[61px] lg:h-[120px] w-[64px] lg:w-[115px]" />
       <Image src={star1} alt="star" className="h-[22px] lg:h-[64px] w-[22px] lg:w-[61px] top-[80%]   left-[60%] absolute " />
       </div>
-      <Image src={path} alt="star" className=" absolute w-[614px] h-[782px] bottom-[10%] right-0" />
+      <Image src={path} alt="star" className=" absolute w-[614px] h-[782px] bottom-0 lg:bottom-[10%] right-0" />
       <Image src={star3} alt="star" className=" lg:h-[64px] w-[61px] absolute bottom-[5%] lg:bottom-[20%] right-[2%]" />
 
 
 
-      <div className="grid sm:grid-cols-2 gap-[60px] text-white my-[150px] lg:px-[100px]">
+      <div className="grid sm:grid-cols-2 gap-[60px] text-white my-[150px] lg:my-[50px] lg:px-[100px]">
         <div>
           <Image src={inc} alt="edu" className="mix-blend-luminosity h-[200px] lg:h-fit" />
           <div className="w-full flex flex-col lg:flex-row items-start mt-[40px]">
-            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-inter ">
+            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-manrope ">
               Web3 Startup Incubation
             </p>
             <p className="w-full lg:w-[70%]  text-[15px] text-[#FFFFFF99] font-[400] font-inter">
@@ -44,7 +44,7 @@ function WhatWeOffer() {
         <div>
           <Image src={inc} alt="edu" className="mix-blend-luminosity h-[200px] lg:h-fit" />
           <div className="w-full flex flex-col lg:flex-row items-start mt-[40px]">
-            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-inter ">
+            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-manrope ">
               Partnership Support
             </p>
             <p className="w-full lg:w-[70%] text-[#FFFFFF99] text-[15px] font-[400] font-inter">
@@ -57,7 +57,7 @@ function WhatWeOffer() {
         <div>
           <Image src={edu} alt="edu" className="mix-blend-luminosity h-[200px] lg:h-fit" />
           <div className="w-full flex flex-col lg:flex-row items-start mt-[40px]">
-            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-inter ">
+            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-manrope ">
               Education
             </p>
             <p className="w-full lg:w-[70%] text-[#FFFFFF99] text-[15px] font-[400] font-inter">
@@ -70,7 +70,7 @@ function WhatWeOffer() {
         <div>
           <Image src={defi} alt="edu" className="mix-blend-luminosity h-[200px] lg:h-fit" />
           <div className="w-full flex flex-col lg:flex-row items-start mt-[40px]">
-            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-inter ">
+            <p className="w-full lg:w-[30%] text-[#DDA74F] text-[20px] font-[600] font-manrope ">
               DeFi & NFT Opportunities
             </p>
             <p className="w-full lg:w-[70%] text-[#FFFFFF99] text-[15px] font-[400] font-inter">
