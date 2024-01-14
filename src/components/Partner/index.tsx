@@ -8,13 +8,13 @@ import felbeth from "@/assets/image/felbeth.png";
 import spield from "@/assets/image/spield.png";
 function Partner() {
   return (
-    <div className="bg-[#0B0B0D] p-[100px_20px] lg:p-[100px_50px]">
-      <p className="uppercase font-inter text-white font-[600] text-[24px]">
-        What we Offer
+    <div className="bg-[#0B0B0D] p-[100px_20px] lg:p-[100px_50px] ">
+      <p className="uppercase font-inter text-white font-[600] text-[16px] lg:text-[24px]">
+      PARTNERS AND BRANDS we have worked with
       </p>
       <div className="h-[5px] mt-[5px] w-full bg-white"></div>
 
-      <div className="text-white mt-[40px] grid sm:grid-col-2 lg:grid-cols-4 gap-[24px]">
+      <div className="text-white mt-[40px] grid sm:grid-cols-3 lg:grid-cols-4 gap-[24px]">
         <div>
           <Image
             src={bitvalue}
