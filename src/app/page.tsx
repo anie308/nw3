@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div  className="">
       <Header />
-      <div className="mt-[10%] relative overflow-hidden">
+      <div className=" relative overflow-hidden">
         <Image
           src={lumin}
           priority

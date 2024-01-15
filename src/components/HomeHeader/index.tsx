@@ -9,8 +9,8 @@ import NavHeader from "../Header";
 
 function Header() {
   return (
-    <div>
-      <div className="relative h-[600px] lg:h-[800px] bg-black">
+    <div className="bg-[#0B0B0D]">
+      <div className="relative h-[600px] lg:h-[800px] ">
         <Image
           priority
           src={Bghead}
