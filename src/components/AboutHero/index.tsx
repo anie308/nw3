@@ -17,11 +17,11 @@ function AboutHero() {
       <div className="absolute z-20 min-h-full top-0 w-full">
         <NavHeader />
         <div className="   h-[500px] w-full flex flex-col items-center justify-center px-[20px]">
-          <p className="font-notosans text-white text-[30px] lg:text-[64px] font-[700] ">
+          <p className="font-notosans text-white text-center text-[30px] lg:text-[64px] font-[700] ">
             Empowering You for the Web3 Era
           </p>
 
-          <p className="font-inter text-[16px]  lg:text-[24px] leading-[24px] lg:leading-[40px]  text-center text-white ">
+          <p className="font-inter text-[16px]  lg:text-[24px] mt-[5px] lg:mt-0 leading-[24px] lg:leading-[40px]  text-center text-white ">
             At Navigating Web3, our commitment is to equip you for success in
             the fast-paced world of <br className="hidden lg:block" /> Web3. We
             are passionate about driving innovation, and we&apos;re convinced
