@@ -3,9 +3,13 @@ import { BsBriefcase } from "react-icons/bs";
 import card1 from '@/assets/image/card1.png'
 import card2 from '@/assets/image/card2.png'
 import card3 from '@/assets/image/card3.png'
+import squares from '@/assets/image/square.png'
+import Image from "next/image";
+import "./letter.css"
 function Letter() {
   return (
-    <div className="bg-[#0B0B0D] p-[100px_20px] lg:p-[100px_50px]  flex flex-col lg:flex-row items-center ">
+    <div className="bg-[#0B0B0D] p-[100px_20px] lg:p-[200px_50px]  flex flex-col lg:flex-row items-center relative overflow-hidden">
+      <Image src={squares} alt="squares" className="absolute w-[600px] lg:w-[900px] h-[500px] lg:h-[850px] top-[-30%] lg:top-0 lg:right-[-20%] "  />
       <div className="lg:flex-1">
         <p className="text-[20px] lg:text-[24px] font-inter font-[400] uppercase text-white">
           SUBSCRIBE TO OUR LETTERS
@@ -28,9 +32,11 @@ function Letter() {
             Subscribe
           </button>
         </div>
-      </div>
-      <div className="lg:flex-1 ">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laborum non tempore eum aut libero optio eius earum iure alias expedita perferendis pariatur consectetur nihil velit et laudantium, esse cupiditate.
+      I</div>
+      <div className="hidden lg:flex lg:flex-1 relative    h-[300px]">
+        <Image src={card2} alt="card-1" className="h-[60px] w-[360px] absolute top-0 right-[20%]"/>
+        <Image src={card1} alt="card-2" className="h-[60px] w-[360px] absolute top-[40%] left-0"/>
+        <Image src={card3} alt="card-3" className="h-[60px] w-[360px] absolute bottom-0 right-[20%]"/>
       </div>
     </div>
   );
