@@ -5,7 +5,7 @@ import card2 from '@/assets/image/card2.png'
 import card3 from '@/assets/image/card3.png'
 import squares from '@/assets/image/square.png'
 import Image from "next/image";
-import "./letter.css"
+
 function Letter() {
   return (
     <div className="bg-[#0B0B0D] p-[100px_20px] lg:p-[200px_50px]  flex flex-col lg:flex-row items-center relative overflow-hidden">
