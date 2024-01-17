@@ -23,14 +23,7 @@
   }
 }
 
-.bg {
-  background-image: url("../assets/image/lumin.png");
-  mix-blend-mode: luminosity;
 
-  border: 1px solid white;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
