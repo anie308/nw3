@@ -3,7 +3,7 @@ import "./contact.css";
 import NavHeader from "../Header";
 function ContactHero() {
   return (
-    <div className="font-notosans background overflow-hidden h-[1000px] lg:h-[850px] w-full relative">
+    <div className="font-notosans background overflow-hidden h-[1000px] lg:h-[850px] w-full relative z-20">
       <div className="absolute top-[100px]">
         <div className="box1"></div>
         <div className="box2  mt-[30px]"></div>
@@ -23,7 +23,7 @@ function ContactHero() {
             <p className="font-notosans text-[30px] lg:text-[48px] font-[700]">
               Contact Us
             </p>
-            <p className="font-inter text-[16px] lg:text-[20px]">
+            <p className="font-manrope text-[16px] lg:text-[20px]">
               No matter your background or interests, Navigating Web3&apos;s
               community welcomes you with open arms. Together, we&apos;ll
               explore the limitless possibilities of the Web3 era and shape the

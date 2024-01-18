@@ -11,7 +11,7 @@ import Letter from "@/components/Letters";
 import Core from "@/components/Core";
 export default function Home() {
   return (
-    <div  className="">
+    <div  className="bg-background">
       <Header />
       <div className=" relative overflow-hidden">
         <Image

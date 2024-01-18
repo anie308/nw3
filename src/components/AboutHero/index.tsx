@@ -3,6 +3,7 @@ import NavHeader from "../Header";
 import "./about.css";
 import cursor from "@/assets/svg/cursor.svg";
 import Image from "next/image";
+import Link from "next/link";
 function AboutHero() {
   return (
     <div className="font-notosans background h-[600px] lg:h-screen w-full relative overflow-hidden">
@@ -29,10 +30,10 @@ function AboutHero() {
             finance, and technology lies in the realm of Web3.
           </p>
 
-          <button className="p-[15px_35px] font-inter bg-[#A76B09] text-white rounded-[6px] mt-[32px] flex items-center space-x-[10px]">
+          <Link href="/contact" className="p-[15px_35px] font-inter bg-[#A76B09] text-white rounded-[6px] mt-[32px] flex items-center space-x-[10px]">
             <span>Get in Touch</span>
             <Image src={cursor} alt="cursor" className="h-[24px] w-[24px]" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
