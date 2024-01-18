@@ -28,7 +28,7 @@ function NavHeader() {
         </div>
         <div className="hidden lg:flex items-center space-x-[48px] ml-[-5%]">
           {links.map(({ id, link, name }) => (
-            <Link href={link} key={id} className={`${pathname === link ? "text-[#DDA74F]" : "text-white"} font-inter`}>
+            <Link href={link} key={id} className={`${pathname === link ? "text-[#DDA74F]" : "text-white"} font-inter hover:text-[#DDA74F]`}>
               {name}
             </Link>
           ))}
@@ -50,8 +50,8 @@ function NavHeader() {
         <div className="flex items-center justify-end"><GoPlus className="text-[35px] rotate-45" onClick={()=> setOpen(!open)} /></div>
         <div className="space-y-[20px] flex flex-col">
         {links.map(({ id, link, name }) => (
-            <Link href={link} key={id} className="font-inter" onClick={()=> setOpen(!open)}>
-              {name}
+            <Link href={link} key={id} className={`${pathname === link ? "text-[#DDA74F]" : "text-white"} font-inter hover:text-[#DDA74F]`}>
+            {name}
             </Link>
           ))}
         </div>
