@@ -7,7 +7,6 @@ import commobile from "../../assets/image/commobile.png";
 function CommunityHero() {
   return (
     <div className="font-notosans background overflow-hidden h-[1200px] lg:h-[900px] w-full relative">
-      <NavHeader />
       <div className="absolute top-[100px]">
         <div className="box1"></div>
         <div className="box2  mt-[30px]"></div>

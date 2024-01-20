@@ -21,7 +21,7 @@ function ProductHero() {
         <div className="box2  mt-[30px]"></div>
       </div>
       <div className="absolute z-20 min-h-full top-0 w-full">
-        <NavHeader />
+        {/* <NavHeader /> */}
         <div className="grid lg:grid-cols-2 gap-[80px] lg:gap-[100px]  p-[100px_20px] lg:p-[80px_50px]">
           <div className="h-full flex flex-col items-start justify-center">
             <p className="text-[30px] lg:text-[40px] font-notosans font-[700] text-white">

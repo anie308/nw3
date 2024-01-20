@@ -17,7 +17,7 @@ function ContactHero() {
         <div className="box2  mt-[30px]"></div>
       </div>
       <div className="absolute z-20 min-h-full top-0 w-full ">
-        <NavHeader />
+        {/* <NavHeader /> */}
         <div className="flex flex-col lg:flex-row items-center justify-center p-[20px] lg:p-[50px] h-full lg:h-[750px] gap-[40px]">
           <div className="text-white flex-1 flex flex-col items-start w-full">
             <p className="font-notosans text-[30px] lg:text-[48px] font-[700]">

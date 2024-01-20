@@ -16,7 +16,7 @@ function AboutHero() {
         <div className="box2  mt-[30px]"></div>
       </div>
       <div className="absolute z-20 min-h-full top-0 w-full">
-        <NavHeader />
+        {/* <NavHeader /> */}
         <div className="   h-[500px] w-full flex flex-col items-center justify-center px-[20px]">
           <p className="font-notosans text-white text-center text-[30px] lg:text-[64px] font-[700] ">
             Empowering You for the Web3 Era

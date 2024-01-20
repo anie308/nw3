@@ -5,11 +5,13 @@ import Raca from "@/assets/image/raca.png";
 import Bghead from "@/assets/image/head.png";
 import mhead from "@/assets/image/mobilehead.png";
 import Bitvalue from "@/assets/image/bitvalue.png";
-import NavHeader from "../Header";
 
+import NavHeader from "../Header";
+Header
 function Header() {
   return (
-    <div className="bg-[#0B0B0D] ">
+    <div className="bg-[#0B0B0D] relative ">
+     
       <div className="relative h-[600px] lg:h-[800px] ">
         <Image
           priority
@@ -23,8 +25,9 @@ function Header() {
           alt="bg-head"
           className="absolute lg:hidden h-full w-full top-0  object-cover"
         />
+        
         <div className="absolute h-full w-full z-20">
-          <NavHeader />
+          
           <div className="font-notosans  w-full relative">
             <div className="absolute z-20 min-h-full top-0 w-full">
               <div className="text-white font-notosans  h-[500px] w-full flex flex-col items-center justify-center px-[20px]">

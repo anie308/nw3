@@ -10,12 +10,11 @@ import './head.css'
 import { usePathname } from 'next/navigation';
 function NavHeader() {
   const pathname = usePathname();
-  console.log(pathname)
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <div className=" flex items-center bg-[#0B0B0D] justify-between text-white  p-[20px] lg:p-[20px_40px]">
+      <div className="sticky  flex items-center bg-[#0B0B0D] justify-between text-white  p-[20px] lg:p-[20px_40px] top-0 z-30">
         <div>
           <Link href="/" >
           <Image
@@ -44,8 +43,8 @@ function NavHeader() {
       </div>
       <div
         className={`${
-          open ? "left-0" : "left-[-100%]"
-        } absolute top-0 bg-background min-h-screen text-white p-[20px] lg:hidden w-full transition-all z-50 flex flex-col `}
+          open ? "left-0" : "left-[-100%] lg:left-0"
+        } fixed top-0 bg-background h-screen text-white p-[20px] lg:hidden w-[100%] transition-all  flex flex-col z-40`}
       >
         <div className="flex items-center justify-end"><GoPlus className="text-[35px] rotate-45" onClick={()=> setOpen(!open)} /></div>
         <div className="space-y-[20px] flex flex-col">
