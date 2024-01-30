@@ -17,11 +17,11 @@ export default function Home() {
         
         <Mission />
 
-      {/* <WhatWeOffer />
+      <WhatWeOffer />
       <Letter />
       <Partner />
       <Join />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
