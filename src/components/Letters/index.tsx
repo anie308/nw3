@@ -20,7 +20,7 @@ function Letter() {
           journey begins with a single click.
         </p>
         <div className="mt-[24px] lg:mt-[48px] w-full lg:w-[70%] rounded-[16px] flex p-[6px] bg-white space-x-[5px] items-center">
-          <BsBriefcase className="text-[25px] text-gray-500 pl-[5px] hidden lg:flex" />
+          <BsBriefcase className="text-[35px] text-gray-500 pl-[5px] hidden lg:flex" />
           <input
             placeholder="Enter your email address"
             type="email"

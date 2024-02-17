@@ -62,8 +62,8 @@ function Header() {
           </div>
           <p className="font-inter text-[14px] text-center mt-[10px] lg:mt-0 lg:text-[16px] font-[400]">
             BitValue Capital, and RACA Foundation Union Launches $5M Fund to
-            Accelerate <br className="hidden lg:block" /> Africa’s Web3
-            Landscape, Partners with Navigating Web3 as Africa support partner.
+            Accelerate <br className="hidden lg:block" /> Africa&apos;s Web3
+            Landscape, Partners with Navigating Web3 as Africa&apos;s support partner.
           </p>
         </div>
       </div>
