@@ -14,8 +14,8 @@ export default function Home() {
     <div className="">
       <NavHeader />
       <Header />
-        
-        <Mission />
+
+      <Mission />
 
       <WhatWeOffer />
       <Letter />
