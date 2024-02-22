@@ -23,7 +23,7 @@ function Mission() {
         alt="alt-noise"
         className="top-0 absolute h-[300px] lg:h-[330px] lw-full lg:w-[50%] shrink-0 pt-[20px] lg:p-0"
       />
-      <div className="absolute lg:relative w-full flex flex-col items-center z-30 px-[15px]">
+      <div className="absolute lg:relative w-full flex flex-col items-center z-30 px-[15px] lg:mt-[60px]">
         <p className=" text-[20px] lg:text-[35px] font-[400] text-center font-merienda text-white">
           NW3 mission is to empower{" "}
           <TooltipComponent

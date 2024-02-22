@@ -25,7 +25,7 @@ const Tooltip = ({ children, content, title }: TooltipProps) => {
     >
       {children}
       {visible && (
-        <div className="absolute hidden lg:flex bg-black text-white z-30 bottom-[50px] rounded-md w-[200px]  lg:flex-col items-start p-[15px] border">
+        <div className="absolute hidden lg:flex bg-black text-white z-40 bottom-[50px] rounded-md w-[200px]  lg:flex-col items-start p-[15px] border">
           <p className=" text-[20px]">{title}</p>
           <p className="text-[15px] text-start mt-[5px] z-30">{content}</p>
         </div>
